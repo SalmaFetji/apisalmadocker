@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+pytest = "*"
+coverage = "*"
+numpy = "*"
+scikit-learn = "*"
+joblib = "*"
+memoized-property = "*"
+mlflow = "*"
+gcsfs = "*"
+termcolor = "*"
+uvicorn = "*"
+fastapi = "*"
+pydantic = "*"
+pylint = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
